@@ -21,8 +21,11 @@ namespace FindGreatestNum
         private void btnFind_Click_1(object sender, EventArgs e)
         {
             num1 = Int16.Parse(tboxNum1.Text);
+            //num1 = Convert.ToInt16(tboxNum1.Text);
             num2 = Int16.Parse(tboxNum2.Text);
+            //num2 = Convert.ToInt16(tboxNum2.Text);
             num3 = Int16.Parse(tboxNum3.Text);
+            //num3 = Convert.ToInt16(tboxNum3.Text);
             if (num1 > num2)
             {
                 if (num1 > num3)
